@@ -13,7 +13,7 @@ const server = http.createServer((req, res)=>{
             res.end('<h1>About page</h1>');
             break;
         default:
-            res.end('<h1 style="color:red"> File not found!</h1>');
+            res.end('<h1 style="color:red"> File not found!!</h1>');
             break;
     }
 
